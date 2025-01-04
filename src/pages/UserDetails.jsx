@@ -67,7 +67,7 @@ const UserDetails = () => {
                 {useSkeletonDetails ?
   (<div className='flex justify-center items-center md:flex-row  flex-col gap-5 mt-10'>
                     <div className="skeleton h-80 w-80"></div> 
-                        <div className="skeleton h-80 w-96"></div> 
+                        <div className="skeleton h-80 w-80"></div> 
                         </div>
                         )
 
