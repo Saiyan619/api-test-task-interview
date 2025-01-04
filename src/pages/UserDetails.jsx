@@ -64,19 +64,22 @@ const UserDetails = () => {
                     </div>
                 </Link>
                 
-            <div className='flex justify-center items-start md:flex-row  flex-col gap-5 mt-10'>
-                
-                    {useSkeletonDetails ?
-                        <div className="skeleton h-80 w-80"></div>
-                        :
-                        <UserDetailsCard userDetails={userDetails} />
-                    }
+                {useSkeletonDetails ?
+  (<div className='flex justify-center items-center md:flex-row  flex-col gap-5 mt-10'>
+                    <div className="skeleton h-80 w-80"></div> 
+                        <div className="skeleton h-80 w-96"></div> 
+                        </div>
+                        )
 
-                    {useSkeletonDetails ?
-                       <div className="skeleton h-80 w-80"></div> 
-                        :
-                        (
-                            <div className='border md:w-1/3 p-5 rounded-md' >
+                    :
+                    (     <div className='flex justify-center items-start md:flex-row  flex-col gap-5 mt-10'>
+                
+                        <UserDetailsCard userDetails={userDetails} />
+
+                       {/* <div className="skeleton h-80 w-80"></div>  */}
+                        
+                        
+                            <div className='border md:w-1/3 lg:w-full p-5 rounded-md' >
                             <h2>User Todos</h2>
                         {userTodos?.map((todo) => {
                             return (
@@ -85,10 +88,11 @@ const UserDetails = () => {
                         }
                         )}
                     </div>
-                        )
-                    }
+                        
                
-            </div>
+            </div>)
+                }
+   
             </div>
             </div>
   )
