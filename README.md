@@ -34,4 +34,5 @@ Built By:
 Arokoyu Olaniyi
 arokoyueb11@gmail.com
 
-I'm the best man for the job and i promise not to dissappoint🙏
+I made use DaisyUI as i also noticed your company used DaisyUi for component styling in the submission webpage
+I'm the best man for the job and i promise not to disappoint🙏
