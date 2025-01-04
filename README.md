@@ -34,4 +34,4 @@ Built By:
 Arokoyu Olaniyi
 arokoyueb11@gmail.com
 
-Please hire me, i promise not to dissappoint🙏
+I'm the best man for the job and i promise not to dissappoint🙏
